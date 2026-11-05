@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-27T21:12:32Z",
+  "keys": [
+    {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "nAUbVSrWXKgg2acRVTL1YhGUCc4bnaXZLl-9X8Jt9EE",
+      "y": "zY3JsODKfAm5n77qPeMTNpKPsrcazrVh6Dpc6wMvJ8o",
+      "kid": "psn-prod-2026-1",
+      "alg": "ES256",
+      "use": "sig",
+      "psn:status": "active",
+      "psn:validityWindow": {
+        "notBefore": "2026-09-02T00:00:00Z",
+        "notAfter": null
+      }
+    }
+  ]
+}
