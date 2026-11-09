@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T21:12:32Z",
+  "generatedAt": "2026-11-09T11:45:23Z",
   "keys": [
     {
       "kty": "EC",
@@ -13,6 +13,20 @@
       "psn:status": "active",
       "psn:validityWindow": {
         "notBefore": "2026-09-02T00:00:00Z",
+        "notAfter": null
+      }
+    },
+    {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "bcFQBL0RcwJD7IVHsF55fyBGlLxWiK6DhZgsPha9cw0",
+      "y": "RfO7eNVEr-5imnZOG8yxM046oAXIvYjqvsIG7X7IDyQ",
+      "kid": "psn-prod-2026-2",
+      "alg": "ES256",
+      "use": "sig",
+      "psn:status": "pending",
+      "psn:validityWindow": {
+        "notBefore": "2026-11-17T10:00:00Z",
         "notAfter": null
       }
     }
