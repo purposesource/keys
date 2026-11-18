@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T11:45:23Z",
+  "generatedAt": "2026-11-17T10:00:00Z",
   "keys": [
     {
       "kty": "EC",
@@ -10,10 +10,10 @@
       "kid": "psn-prod-2026-1",
       "alg": "ES256",
       "use": "sig",
-      "psn:status": "active",
+      "psn:status": "retired",
       "psn:validityWindow": {
         "notBefore": "2026-09-02T00:00:00Z",
-        "notAfter": null
+        "notAfter": "2026-11-17T10:00:00Z"
       }
     },
     {
@@ -24,7 +24,7 @@
       "kid": "psn-prod-2026-2",
       "alg": "ES256",
       "use": "sig",
-      "psn:status": "pending",
+      "psn:status": "active",
       "psn:validityWindow": {
         "notBefore": "2026-11-17T10:00:00Z",
         "notAfter": null
